@@ -3,7 +3,7 @@ const qBtn = document.getElementById('qBtn')
 const quoteEl = document.getElementById('quote')
 const charachterEl = document.getElementById('character')
 
-quoteBtn.addEventListener('click', generateQuote)
+qBtn.addEventListener('click', generateQuote)
 
 generateQuote()
 
